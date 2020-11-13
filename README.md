@@ -1,2 +1,2 @@
-# PyQt5_learning
+# PyQt5/PySide2_learning
 Examples
