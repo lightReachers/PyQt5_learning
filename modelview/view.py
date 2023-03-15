@@ -17,7 +17,7 @@ class TodoModel(QAbstractListModel):
             status, text = self.todos[index.row()]
             return text
         if role == Qt.DecorationRole:
-            status, text = self.todo[index.row()]
+            status, text = self.todos[index.row()]
             if status:
                 return cmplt_status
     
